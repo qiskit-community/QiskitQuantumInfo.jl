@@ -2,5 +2,7 @@ using QiskitQuantumInfo
 using Test
 
 @testset "QiskitQuantumInfo.jl" begin
-    # Write your tests here.
+    for s in ("X", "Y")
+        @test string(Pauli(s)) == s
+    end
 end
