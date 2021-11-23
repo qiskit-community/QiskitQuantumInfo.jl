@@ -5,4 +5,4 @@
 
 
 This package mirrors in Julia some qiskit data structures (in Python). At present these data structures are used as an intermediate
-form in translating operators from [QiskitQuantumInfo.jl](https://github.com/jlapeyre/QiskitQuantumInfo.jl) to qiskit data structures.
+form in translating operators from [QuantumOps.jl](https://github.com/jlapeyre/QuantumOps.jl) to qiskit data structures.
