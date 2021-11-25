@@ -7,7 +7,7 @@ This pacakge is NOT part of Qiskit. You can find the [Qiskit repositories here](
 And here is [how to install Qiskit](https://qiskit.org/documentation/getting_started.html).
 
 
-`QiskitQuantumInfo.jl` is an experimental package that might be interesting to expert Qiskit users.
+`QiskitQuantumInfo.jl` is an experimental package that might be interesting to **expert** Qiskit users.
 
 This package mirrors in Julia some qiskit data structures (in Python). At present these data structures are used as an intermediate
 form in translating operators from [QuantumOps.jl](https://github.com/jlapeyre/QuantumOps.jl) to qiskit data structures.
