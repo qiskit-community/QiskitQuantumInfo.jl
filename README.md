@@ -3,6 +3,8 @@
 [![Build Status](https://github.com/jlapeyre/QiskitQuantumInfo.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/jlapeyre/QiskitQuantumInfo.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/jlapeyre/QiskitQuantumInfo.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/jlapeyre/QiskitQuantumInfo.jl)
 
+## ATTENTION
+
 This pacakge is NOT part of Qiskit. You can find the [Qiskit repositories here](https://github.com/Qiskit).
 And here is [how to install Qiskit](https://qiskit.org/documentation/getting_started.html).
 
