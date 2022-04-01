@@ -1,3 +1,5 @@
+# We probably won't use this. Prefer Distances.jl
+
 function hellinger_distance!(p_counts::AbstractDict{T,V}, q_counts::AbstractDict{T,V}) where {T, V}
     p_sum = sum(values(p_counts))
     q_sum = sum(values(q_counts))

@@ -9,5 +9,6 @@ export hellinger_distance!, hellinger_distance
 include("pauli.jl")
 include("pauli_list.jl")
 include("distance.jl")
+include("util.jl")
 
 end
