@@ -1,5 +1,6 @@
 import QiskitQuantumInfo
 using Test
+import Pkg
 
 @testset "QiskitQuantumInfo.jl" begin
     for s in ("X", "Y", "Z", "I")
@@ -8,6 +9,7 @@ using Test
 end
 
 @testset "util" begin
-    @test length(QiskitQuantumInfo.find_registry("QuantumRegistry")) >= 0
-    @test QiskitQuantumInfo.find_installed_package("QuantumOps") isa Bool
+    reg = QiskitQuantumInfo.find_registry("QuantumRegistry")
+    @test any(t -> reg isa t, (Pkg.Registry.RegistryInstance, Nothing))
+    @test QiskitQuantumInfo.is_dependency_installed("QuantumOps") isa Bool
 end
