@@ -5,7 +5,7 @@
 
 ## ATTENTION
 
-This pacakge is NOT part of Qiskit. You can find the [Qiskit repositories here](https://github.com/Qiskit).
+This package is NOT part of Qiskit. You can find the [Qiskit repositories here](https://github.com/Qiskit).
 And here is [how to install Qiskit](https://qiskit.org/documentation/getting_started.html).
 
 
